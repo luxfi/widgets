@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "target": "es6",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "allowJs": true,
+    "outDir": "./dist",
+    "lib": [
+      "es2020",
+      "dom"
+    ]
+  },
+  "exclude": ["./node_modules", "test", "dist"],
+}
