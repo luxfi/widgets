@@ -1,6 +1,6 @@
 {
-  "name": "@luxfi/widgets",
-  "version": "1.0.9",
+  "name": "@luxwallet/widgets",
+  "version": "1.1.0",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
