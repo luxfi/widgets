@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "target": "es6",
     "module": "esnext",
     "moduleResolution": "node",
@@ -15,5 +17,5 @@
       "dom"
     ]
   },
-  "exclude": ["./node_modules", "test", "dist"],
+  "exclude": ["./node_modules", "test", "dist"]
 }
